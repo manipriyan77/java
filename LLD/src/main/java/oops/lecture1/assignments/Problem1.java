@@ -13,5 +13,15 @@
 package oops.lecture1.assignments;
 
 public class Problem1 {
+    int age = 28;
+    String name = "Manipriyan GS";
+
+    public  String display(){
+        return "My name is " + name+". "+"I am " +age+" years old";
+    }
+
+    public void sayHello(String userName){
+        System.out.println(name+" says hello to "+userName);
+    }
 
 }
